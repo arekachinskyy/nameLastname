@@ -2,6 +2,7 @@ package lecture;
 
 import java.util.Scanner;
 
+    //HOMEWORK
 public class lectureTask {
     public static void main(String[] args) {
 
