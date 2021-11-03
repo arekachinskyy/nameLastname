@@ -7,8 +7,10 @@ public class lectureTask2 {
         int[] arrNumber = {15, 8, 24, 41, 9, 84};
         Random random = new Random();
         int randomNumber = random.nextInt(arrNumber.length);
+        System.out.println(arrNumber[randomNumber]);
 
-        if (arrNumber[randomNumber] > 10){
+        //FIXED: DEFINE THAT RANDOM NUMBER IS EVEN
+        if (arrNumber[randomNumber]%2 == 0){
             System.out.print("I am lucky");
         } else {
             System.out.print("Run again");
