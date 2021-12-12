@@ -1,17 +1,10 @@
 package lesson10;
 
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.time.Duration;
 
 
 public class TestForm {
@@ -27,10 +20,10 @@ public class TestForm {
         driver.manage().window().maximize();
     }
 
-//    @AfterMethod
-//    public void teardown(){
-//        driver.quit();
-//    }
+    @AfterMethod
+    public void teardown(){
+        driver.quit();
+    }
 
 
     @Test
