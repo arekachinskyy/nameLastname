@@ -3,6 +3,7 @@
 <suite name="Custom suite">
     <test name="TestNG">
         <classes>
+            <class name="lesson13.Tests.TestHttp"/>
             <class name="lesson12.Tests.Setup"></class>
             <class name="lesson12.Tests.TestCase"/>
         </classes>
