@@ -1,2 +1,2 @@
 # nameLastname
-for cource
+Java Automation for QA cource
